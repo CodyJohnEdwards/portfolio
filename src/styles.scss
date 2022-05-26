@@ -1,0 +1,20 @@
+body{
+    background-color: #212529;
+    color:white;
+    font-size: large;
+}
+
+.nav-link{
+    color:white;
+    &:hover{
+        color:#D0FCB3;
+    }
+}
+
+.nav-link.active{
+    color:black !important;
+    background-color: #D0FCB3 !important;
+}
+
+
+

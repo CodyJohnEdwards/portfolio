@@ -1,0 +1,27 @@
+<header class="d-flex flex-wrap justify-content-center py-3 mb-4 bg-dark">
+    <a routerLink="/home" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+      <span class="fs-4 mx-5 text-white">
+        Cody Edwards
+        <div class="accent"></div>
+      </span>
+    </a>
+  
+    <ul class="nav nav-pills mx-5 my-auto">
+      <li class="nav-item">
+        <a routerLink="/home" [ngClass]="{'active' : routeActive('home')}" class="nav-link">
+          Home
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/projects" [ngClass]="{'active' : routeActive('projects')}" class="nav-link">
+          Projects
+        </a>
+      </li>
+      <li class="nav-item"><a routerLink="/contact" [ngClass]="{'active' : routeActive('contact')}" class="nav-link">
+          Contact
+        </a>
+      </li>
+    </ul>
+  </header>
+  
+  
