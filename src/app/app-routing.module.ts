@@ -6,7 +6,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'home',
+    path: '',
     component: HomeComponent
   },
   {
@@ -17,7 +17,7 @@ const routes: Routes = [
     path: 'contact',
     component: ContactComponent
   },
-  { path: '**', redirectTo: '/home'},
+  { path: '**', redirectTo: ''},
 ];
 
 @NgModule({
